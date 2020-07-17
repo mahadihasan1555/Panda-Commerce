@@ -1,3 +1,4 @@
+
 .container{
     margin-bottom: 100px;
 }
@@ -20,16 +21,13 @@
     cursor: pointer;
 }
 .cat-1{
-    background-color: orange;
-    
+    background-color: orange;   
 }
 .cat-2{
-    background-color: orchid;
-    
+    background-color: orchid;  
 }
 .cat-3{
-    background-color: blue;
-    
+    background-color: blue;  
 }
 .cat-1, .cat-2, .cat-3{
     padding: 10px 30px;
@@ -37,8 +35,26 @@
 }
 .categories h1{
     color: white;
-
 }
 .categories img{
     width:100px ;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: whitesmoke;
+    border-top: none;
+}
+.contact{
+    height: 300px;
+}
+.contact h6{
+    color: rgb(136, 124, 124);
+}
+.mainFooter{
+    color: dimgray;
+    text-align: center;
+    font-size: 12px;
 }
